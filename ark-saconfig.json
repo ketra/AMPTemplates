@@ -50,9 +50,9 @@
         "IsFlagArgument":false,
         "ParamFieldName":"Map",
         "IncludeInCommandLine":false,
-        "DefaultValue":"TheIsland",
+        "DefaultValue":"TheIsland_WP",
         "EnumValues":{
-            "TheIsland":"The Island (default)",
+            "TheIsland_WP":"The Island (default)",
             "{{CustomMap}}":"Custom"
         }
     },

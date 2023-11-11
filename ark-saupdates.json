@@ -11,7 +11,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"SteamCMD",
         "UpdateSourceData":"2430930",
-        "UpdateSourceArgs":""
+        "UpdateSourceArgs":"2399830"
     },
     {
         "UpdateStageName":"Config Directory Creation",
