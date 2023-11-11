@@ -2182,5 +2182,29 @@
             "False":"false",
             "True":"true"
         }
+    },
+    {
+        "DisplayName":"Egg hatch speed multiplier",
+        "Category":"ARK Dino Settings",
+        "Description":"The speed the egg hatches at this is a multiplier so 2 would be twice as fast",
+        "Keywords":"hatch,egg,",
+        "FieldName":"EggHatchSpeedMultiplier",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"1"
+    },
+    {
+        "DisplayName":"Egg Lay Interval Multiplier",
+        "Category":"ARK Dino Settings",
+        "Description":"The speed the egg is laid at this is a multiplier so 2 would be twice as fast",
+        "Keywords":"hatch,egg,",
+        "FieldName":"LayEggIntervalMultiplier",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"1"
     }
 ]
