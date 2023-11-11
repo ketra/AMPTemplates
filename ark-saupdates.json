@@ -11,7 +11,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"SteamCMD",
         "UpdateSourceData":"2430930",
-        "UpdateSourceArgs":"346110"
+        "UpdateSourceArgs":""
     },
     {
         "UpdateStageName":"SteamCMD Directory Creation",
@@ -51,7 +51,7 @@
         "UpdateStageName":"Game.ini Config Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-sagame.ini",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/ark-sagame.ini",
         "UpdateSourceArgs":"Game.ini",
         "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer/",
         "OverwriteExistingFiles":false
@@ -60,7 +60,7 @@
         "UpdateStageName":"Game.ini Config Download",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-sagame.ini",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/ark-sagame.ini",
         "UpdateSourceArgs":"Game.ini",
         "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/LinuxServer/",
         "OverwriteExistingFiles":false
@@ -69,7 +69,7 @@
         "UpdateStageName":"GameUserSettings.ini Config Download",
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-sawin-gameusersettings.ini",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/ark-sawin-gameusersettings.ini",
         "UpdateSourceArgs":"GameUserSettings.ini",
         "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer/",
         "OverwriteExistingFiles":false
@@ -78,7 +78,7 @@
         "UpdateStageName":"GameUserSettings.ini Config Download",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-salinux-gameusersettings.ini",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/ark-salinux-gameusersettings.ini",
         "UpdateSourceArgs":"GameUserSettings.ini",
         "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/LinuxServer/",
         "OverwriteExistingFiles":false
@@ -87,7 +87,7 @@
         "UpdateStageName":"First Backup Exclusions Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/exclusions/.backupExclusionsArk1",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/exclusions/.backupExclusionsArk1",
         "UpdateSourceArgs":".backupExclude",
         "UpdateSourceTarget":"{{$FullBaseDir}}",
         "UpdateSourceConditionSetting":"backupExclude",
@@ -98,7 +98,7 @@
         "UpdateStageName":"Second Backup Exclusions Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/exclusions/.backupExclusionsArk2",
+        "UpdateSourceData":"https://raw.githubusercontent.com/ketra/AMPTemplates/main/exclusions/.backupExclusionsArk2",
         "UpdateSourceArgs":".backupExclude",
         "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame",
         "UpdateSourceConditionSetting":"backupExclude",
